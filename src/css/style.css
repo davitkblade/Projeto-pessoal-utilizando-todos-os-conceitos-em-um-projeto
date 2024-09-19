@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column; /* Define a direção do layout dos elementos flexíveis como coluna. */
+    align-items: center; /* Alinha os elementos flexíveis ao centro horizontalmente. */
+  justify-content: center; /* Alinha os elementos flexíveis ao centro verticalmente. */
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/564x/b4/1b/9e/b41b9ec347a9956e572aecfb42b45ada.jpg');
+    background-repeat: no-repeat; /* Define a repetição da imagem de fundo como sem repetição. */ 
+    background-size: cover; /* Define o tamanho da imagem de fundo para cobrir toda a área. */ 
+    background-position: center;
+  }
+  #alien-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #alien-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px; 
+  }
+  #alien-form {
+    width: 300px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+
+  .alienscharacter{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    transform: translateY(-20%);
+    width: 200px;
+    height: 10px;
+    color: white;
+    font-size: 20px;
+  
+  }
+  .tam{
+    width: 380px;
+    margin-left: 400px;
+  }
+  .ben10{
+    width: 200px;
+  }
+  .sobre{
+    margin-left: 400px;
+  }
