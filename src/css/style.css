@@ -1,14 +1,14 @@
 body {
     font-family: sans-serif;
     display: flex;
-    flex-direction: column; /* Define a direção do layout dos elementos flexíveis como coluna. */
-    align-items: center; /* Alinha os elementos flexíveis ao centro horizontalmente. */
-  justify-content: center; /* Alinha os elementos flexíveis ao centro verticalmente. */
+    flex-direction: column; 
+    align-items: center; 
+  justify-content: center; 
     height: 100vh;
     margin: 0;
     background-image: url('https://i.pinimg.com/564x/b4/1b/9e/b41b9ec347a9956e572aecfb42b45ada.jpg');
-    background-repeat: no-repeat; /* Define a repetição da imagem de fundo como sem repetição. */ 
-    background-size: cover; /* Define o tamanho da imagem de fundo para cobrir toda a área. */ 
+    background-repeat: no-repeat; 
+    background-size: cover;
     background-position: center;
   }
   #alien-form {
